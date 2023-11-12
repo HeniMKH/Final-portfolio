@@ -37,6 +37,13 @@
         padding: 0 1rem;
         border-radius: 2rem;
     }
+    /* navbar.css */
+.desktopMenuImg {
+    width: 30px; /* Set your desired width */
+    height: 40px; /* This maintains the aspect ratio */
+    /* You can also set a specific height if needed */
+  }
+  
 
 
 
