@@ -1,28 +1,25 @@
-import React from 'react'
-import './works.css';
-import Project1 from '../../assests/amazonshop.png';
-import Project2 from '../../assests/amazonshop.png';
-import Project3 from '../../assests/amazonshop.png';
-import Project4 from '../../assests/amazonshop.png';
-import Project5 from '../../assests/amazonshop.png';
-import Project6 from '../../assests/amazonshop.png';
+import React from "react";
+import "./works.css";
+import data from "../../data/data.json";
 
 function Works() {
   return (
-   <section id='work'>
-  <h2 className='worksTitle'>My Projects</h2>
-  {/* <span className='worksDesc'>I take pride in paying attention to the details and making sure that my work is pixel project.</span> */}
-  <div className='worksImgs'>
-  <img src={Project1} alt='' className='workingImg' />
-  <img src={Project2} alt='' className='workingImg' />
-  <img src={Project3} alt='' className='workingImg' />
-  <img src={Project4} alt='' className='workingImg' />
-  <img src={Project5} alt='' className='workingImg' />
-  <img src={Project6} alt='' className='workingImg' />
-  </div>
- 
-   </section>
-  )
+    <section id="work">
+      <h2 className="worksTitle">My Projects</h2>
+      {data.map((card) => {
+        return (
+          <div>
+            <a href={card.url} alt="cards" target="_blank" rel="noreferrer">
+              <img src={`/img/${card.img}`} alt="" />
+            </a>
+
+            <h4>{card.title}</h4>
+            <h6>{card.description}</h6>
+          </div>
+        );
+      })}
+    </section>
+  );
 }
 
-export default Works
+export default Works;
