@@ -56,15 +56,6 @@ const Navbar = () => {
         <img src={contactImg} alt="" className="desktopMenuImg" />
         Contact Me
       </button>
-      {/* <img src={logo} alt="logo" className='logo' />
-            <div className="desktopMenu"> 
-
-                <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='destopMenuListItem'>Home</Link>
-                <Link  activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500}className='destopMenuListItem'>About</Link> 
-                <Link  activeClass='active' to='works' spy={true} smooth={true} offset={-100} duration={500}className='destopMenuListItem'>Portfolio</Link> 
-                 <Link  activeClass='active' to='clien
-                ts' spy={true} smooth={true} offset={-100} duration={500}className='destopMenuListItem'>Projects</Link>
-            </div> */}
     </nav>
   );
 };
