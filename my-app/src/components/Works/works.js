@@ -6,18 +6,20 @@ function Works() {
   return (
     <section id="work">
       <h2 className="worksTitle">My Projects</h2>
-      {data.map((card) => {
-        return (
-          <div>
-            <a href={card.url} alt="cards" target="_blank" rel="noreferrer">
-              <img src={`/img/${card.img}`} alt="" />
-            </a>
+      <div className="project-section">
+        {data.map((card) => {
+          return (
+            <div className="project-card">
+              <a href={card.url} alt="cards" target="_blank" rel="noreferrer">
+                <img src={`/img/${card.img}`} alt="" />
+              </a>
 
-            <h4>{card.title}</h4>
-            <h6>{card.description}</h6>
-          </div>
-        );
-      })}
+              {/* <h4>{card.title}</h4> */}
+              <h6>{card.description}</h6>
+            </div>
+          );
+        })}
+      </div>
     </section>
   );
 }

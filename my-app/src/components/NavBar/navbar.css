@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
@@ -36,15 +36,44 @@
         justify-content: center;
         padding: 0 1rem;
         border-radius: 2rem;
-    }
-    /* navbar.css */
-.desktopMenuImg {
-    width: 30px; /* Set your desired width */
-    height: 40px; /* This maintains the aspect ratio */
-    /* You can also set a specific height if needed */
-  }
-  
+    } */
+/* navbar.css */
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding: 1rem;
+}
+ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
 
-
-
+.logo {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+.contact-btn {
+  border-radius: 20px;
+  padding: 0.5rem;
+  background-color: greenyellow;
+  color: black;
+  transition: 0.5s all ease-in-out;
+  cursor: pointer;
+}
+.contact-btn:hover {
+  background-color: black;
+  color: white;
+}
+.nav-link {
+  transition: 0.5s all ease-in-out;
+  color: white;
+}
+.nav-link:hover {
+  color: greenyellow;
+}
