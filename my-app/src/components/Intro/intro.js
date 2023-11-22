@@ -14,7 +14,7 @@ const Intro = () => {
           Developer
         </span>
         <p className="introPara">
-          I am a skilled web developer with more passionate in creating Apps
+          I am a skilled web developer with more passionate in creating Apps.
         </p>
         <div>
           <a

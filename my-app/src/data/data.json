@@ -3,13 +3,13 @@
     "url": "https://starter-kit-all6.onrender.com/",
     "img": "bookMe.png",
     "title": "",
-    "description": "A bookMe website for finding experts"
+    "description": "Developed an online booking platform using PERN, JavaScript, Google OAuth 2.0, Sequelize, Github Actions, Material UI, Google Calendar. "
   },
   {
     "url": "https://london9-amazon-clone-50-react-project.netlify.app/",
     "img": "amazonshop.png",
     "title": "",
-    "description": "amazonshop website"
+    "description": "amazonshop website.This is a simple e-commerce website built using React.js and Firebase"
   },
   {
     "url": "https://teamwork-candycrush.netlify.app/",
